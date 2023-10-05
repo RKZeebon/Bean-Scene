@@ -111,3 +111,29 @@ nav .user-access li:last-child a {
     font-weight: 400;
 
 }
+
+.discover {
+    margin-top: 80px;
+    display: flex;
+    gap: 36px;
+
+}
+
+.discover .discover-left {
+    padding: 60px 0;
+}
+
+.discover .discover-left h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.discover .discover-left p {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 30px 0;
+    width: 585px;
+}

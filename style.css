@@ -37,6 +37,7 @@ a {
     background: #F9C06A;
     box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
     font-weight: 700;
+    cursor: pointer;
 }
 
 .hero-section {

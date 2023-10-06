@@ -443,3 +443,71 @@ nav .user-access li:last-child a {
     z-index: 5;
     transform: rotate(180deg);
 }
+
+.newslater-section {
+    background: linear-gradient(0deg, rgba(96, 56, 9, 0.8), rgba(96, 56, 9, 0.8)), url(./assets/coffee_image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.newslater {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newslater h1 {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.newslater p {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 34px;
+    margin: 16px;
+}
+
+.newslater .input-field {
+    position: relative;
+}
+
+.newslater .input-field input {
+    width: 642px;
+    height: 66px;
+    padding: 16px 26px;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.34);
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.newslater .input-field button {
+    position: absolute;
+    border-radius: 4px;
+    right: 0;
+    top: 2px;
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    height: 63px;
+
+}
+
+.newslater .left-side-img {
+    position: absolute;
+    left: 0;
+    bottom: -130px;
+}
+
+.newslater .right-side-img {
+    position: absolute;
+    right: 0;
+    bottom: -130px;
+    transform: rotateY(180deg);
+}

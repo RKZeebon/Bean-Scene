@@ -491,11 +491,11 @@ nav .user-access li:last-child a {
     position: absolute;
     border-radius: 4px;
     right: 0;
-    top: 2px;
+    top: 0px;
     color: #603809;
     font-size: 22px;
     font-weight: 700;
-    height: 63px;
+    height: 66px;
 
 }
 
@@ -595,7 +595,7 @@ footer {
 
 .footer-text .contact div {
     width: 332px;
-    margin-top: 55px;
+    /* margin-top: 55px; */
 }
 
 
@@ -603,5 +603,5 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 22px;
+    margin-top: 14px;
 }

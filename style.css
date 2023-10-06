@@ -36,6 +36,7 @@ a {
     border: none;
     background: #F9C06A;
     box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    font-weight: 700;
 }
 
 .hero-section {
@@ -294,5 +295,50 @@ nav .user-access li:last-child a {
 .why-us .why-us-footer button {
     margin-top: 24px;
     color: #1E1E1E;
+
+}
+
+.get-a-chance-section {
+    margin-top: 80px;
+    background-image: url(./assets/coffee_image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-a-chance-section .overlay {
+    background-color: rgba(96, 56, 9, 0.8);
+    background-image: url(./assets/coffee_bean.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.get-a-chance-section .get-a-chance {
+    display: flex;
+    align-items: center;
+
+}
+
+.get-a-chance .get-a-chance-left {
+    width: 65%;
+}
+
+.get-a-chance .get-a-chance-left h1 {
+    color: #FFF;
+    font-size: 54px;
     font-weight: 700;
+
+}
+
+.get-a-chance .get-a-chance-left p {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 34px;
+    margin: 22px 0;
+}
+
+.get-a-chance .get-a-chance-right img {
+    padding: 54px;
+    width: 90%;
+
 }

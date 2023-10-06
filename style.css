@@ -151,6 +151,7 @@ nav .user-access li:last-child a {
 .type-section .type .right-side-img {
     position: absolute;
     right: 0;
+    bottom: -230px;
     transform: scaleX(-1);
 }
 
@@ -217,4 +218,81 @@ nav .user-access li:last-child a {
     left: 50%;
     transform: translateX(-50%);
     bottom: -20px;
+}
+
+.why-us {
+    padding-top: 80px;
+}
+
+.why-us .why-us-heading {
+    text-align: center;
+}
+
+.why-us-heading h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+
+}
+
+.why-us-heading p {
+    color: #707070;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 16px;
+}
+
+.why-us .why-us-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.why-us-cards .why-us-card {
+    text-align: center;
+    padding: 36px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background-color: #FFF9F1;
+}
+
+.why-us-card .card-info h3 {
+    color: #603809;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.why-us-card .card-info p {
+    color: #707070;
+    font-size: 20px;
+
+}
+
+.why-us-cards .why-us-card:hover {
+    background: #FFEED8;
+}
+
+
+.why-us .why-us-footer {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.why-us .why-us-footer p {
+    color: #707070;
+    font-size: 20px;
+
+}
+
+.why-us .why-us-footer h2 {
+    color: #603809;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.why-us .why-us-footer button {
+    margin-top: 24px;
+    color: #1E1E1E;
+    font-weight: 700;
 }

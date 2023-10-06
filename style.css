@@ -389,6 +389,19 @@ nav .user-access li:last-child a {
     width: 780px;
     margin-bottom: 28px;
     line-height: 36px;
+    position: relative;
+}
+
+.feedback .feedback-body p::before {
+    content: "“";
+    position: absolute;
+    top: -70px;
+    left: -70px;
+    color: #603809;
+    font-size: 220px;
+    font-weight: 700;
+    line-height: 112px;
+
 }
 
 .feedback .feedback-body h2 {
